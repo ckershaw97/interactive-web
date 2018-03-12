@@ -1,0 +1,15 @@
+.homepagepeeps {
+    font-family: "Impact";
+    font-size: 60pt;
+    text-align: left; 
+    margin: 0px 200px;
+    line-height: 4; 
+}
+
+.poem {
+    font-size: 10pt;
+    font-family: "Avenir Next Condensed";
+    text-align: center;
+    margin: 30px 50px;
+    
+}
