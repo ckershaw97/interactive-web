@@ -1,4 +1,4 @@
-.p21one {
+.typewriterp22 {
     margin:00px;
     padding:140px 80px;
     font-size: 103pt;
@@ -11,6 +11,26 @@
     height: ;
     width: ;
     float: ;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 
 .p21two {
@@ -90,18 +110,39 @@
 }
 
 .p23 {
-    margin:80%
-    padding:40px
-    font-size: 13pt;
+    margin-top:100px;
+    margin-right: 0px;
+    padding:0px;
+    font-size: 17pt;
     font-family: "Helvetica";
     font-weight: bold;
     text-transform: ;
-    text-align: ;
-    letter-spacing: ;
+    text-align:;
+    letter-spacing: 5.0em;
     display: ;
     height: ;
-    width: ;
+    width:1500px;
     float: ;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 
 .p24 {
