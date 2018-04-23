@@ -1,0 +1,319 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: rgb(240,240,240);
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px rgba(230, 222, 159, 0.78);
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: rgb(255, 248, 224);
+}
+
+.head {
+    position: absolute;
+    width: 120px;
+	height: 220px;
+	background: brown;
+	border-radius: 90px;
+    margin-top: 140px;
+    margin-left: 375px;
+}
+
+.bottletop {
+	position: absolute;
+    width: 60px;
+	height: 70px;
+	background: brown;
+    margin-top: 100px;
+    margin-left: 405px; 
+    border-radius: 10px;
+}
+
+.bottlemiddle {
+    position: absolute;
+    width: 90px;
+	height: 70px;
+	background: brown;
+    margin-top: 330px;
+    margin-left: 390px; 
+    border-radius: 10px;   
+}
+
+.bottlebottom {
+    position: absolute;
+    width: 120px;
+	height: 100px;
+	background: brown;
+	border-radius: 90px 90px 30px 30px;
+    margin-top: 350px;
+    margin-left: 375px;
+        
+}
+
+.neck {
+    position: absolute;
+    width: 30px;
+	height: 60px;
+	background: tan;
+	border-radius: 100px;
+    margin-top: 60px;
+    margin-left: 420px; 
+}
+
+.face {
+    position: absolute;
+    width: 60px;
+	height: 90px;
+	background: tan;
+	border-radius: 90px;
+    margin-top: 0px;
+    margin-left: 405px;  
+}
+
+.eye1 {
+	position: absolute;
+    width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 650px;
+    margin-top: 30px;
+    margin-left: 445px;     
+}
+
+.eye2 {
+	position: absolute;
+    width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 650px;
+    margin-top: 30px;
+    margin-left: 420px;     
+}
+
+.pupil1 {
+	position: absolute;
+    width: 5px;
+	height: 5px;
+	background: black;
+	border-radius: 450px;
+    margin-top: 32px;
+    margin-left: 448px;     
+}
+
+.pupil2 {
+	position: absolute;
+    width: 5px;
+	height:5px;
+	background: black;
+	border-radius: 450px;
+    margin-top: 32px;
+    margin-left: 422px;     
+}
+
+.eyelight1 {
+	position: absolute;
+    width: 3px;
+	height: 3px;
+	background: white;
+	border-radius: 450px;
+    margin-top: 32px;
+    margin-left:490px;     
+}
+
+.nose {
+    position: absolute;
+    width: 10px;
+	height:7px;
+	background: pink;
+	border-radius: 450px;
+    margin-top: 45px;
+    margin-left:433px;
+}
+
+.mouth1 {
+	position: absolute;
+    width: 20px;
+	height: 4px;
+	background: white;
+    margin-top: 58px;
+    margin-left: 429px    
+}
+
+.mouth2 {
+    position: absolute;
+    height:15px;
+    width:30px;
+    border-radius: 0 0 90px 90px;
+    background:black;
+    margin-top: 58px;
+    margin-left: 423px;
+}
+
+.ear1 {
+	position: absolute;
+    width: 10px;
+	height: 15px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 395px;     
+}
+
+.ear2 {
+	position: absolute;
+    width: 10px;
+	height: 15px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 465px;     
+}
+
+.hair1 {
+    position: absolute;
+    margin-left: 400px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 100% 0 100% 0;
+}
+
+.hair2 {
+    position: absolute;
+    margin-left: 422px;
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 100% 0 100% 0;
+}
+
+.hair3 {
+    position: absolute;
+    margin-top:6px;
+    margin-left: 435px;
+    width: 22px;
+    height: 22px;
+    background: black;
+    border-radius: 100% 0 100% 0;
+}
+
+.hair4 {
+    position: absolute;
+    margin-left: 445px;
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 100% 0 100% 0;
+    transform: rotate(270deg);
+}
+
+.hair5 {
+    position: absolute;
+    margin-left: 429px;
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 100% 0 100% 0;
+    transform: rotate(270deg);
+}
+
+
+.label {
+    
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    font-size: 10pt;
+    font-family: "georgia";
+    margin-left: 85%;
+}

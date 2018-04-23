@@ -1,0 +1,57 @@
+.container {
+    background-color: red;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}   
+
+.title {
+    width: 40%;
+    background-color: yellow;
+    color: darkcyan;
+    font-size: 20pt;
+    margin-left: 0%; 
+    font-family: "franklin gothic medium";
+}
+
+.paris {
+    width: 40%;
+    background-color: yellow;
+    color: darkcyan;
+    font-size: 20pt;
+    margin-left: 0%; 
+    font-family: "franklin gothic medium";
+}
+
+.label {
+    position:;
+    float: right;
+    width: 40%;
+    font-size: 20pt;
+    text-align: right;  
+    background-color: yellow;
+    color: darkcyan;
+ 
+}
+
+.mapcontainer {
+    position: relative;
+    width: 100vw;
+}
+
+#fr {
+    position: absolute;
+    width: 90%;
+    padding-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 12%;
+    font-size: 13pt;
+    font-family: "franklin gothic medium";
+    margin-left: 5%;
+}

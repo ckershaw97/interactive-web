@@ -1,0 +1,290 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: aliceblue;
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px rgba(230, 222, 159, 0.78);
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: (255, 248, 224);
+}
+
+.head {
+	position: absolute;
+    width: 150px;
+	height: 220px;
+	background: tan;
+	border-radius: 90px;
+    margin-top: 50px;
+    margin-left: 470px;     
+}
+
+.eyebrow1 {
+    position: absolute;
+    width: 50px;
+	height: 10px;
+	background: brown;
+	border-radius: 650px;
+    margin-top: 120px;
+    margin-left: 490px;     
+}
+
+.eyebrow2 {
+    position: absolute;
+    width: 50px;
+	height: 10px;
+	background: brown;
+	border-radius: 650px;
+    margin-top: 120px;
+    margin-left: 560px;     
+}
+
+.glasses1 {
+    position: absolute;
+    border: 3pt black solid;
+    height: 70px;
+    width:70px ;
+    margin-top:130px;
+    margin-left: 480px; 
+    border-radius: 100px;
+}
+
+.glasses2 {
+    position: absolute;
+    border: 3pt black solid;
+    height:70px;
+    width: 70px;
+    margin-top: 130px;
+    margin-left:550px;
+    border-radius: 100px;
+}
+
+.eye1 {
+	position: absolute;
+    width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 650px;
+    margin-top: 160px;
+    margin-left: 490px;     
+}
+
+.eye2 {
+	position: absolute;
+    width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 650px;
+    margin-top: 160px;
+    margin-left: 570px;     
+}
+
+.pupil1 {
+	position: absolute;
+    width: 10px;
+	height: 10px;
+	background: black;
+	border-radius: 450px;
+    margin-top: 165px;
+    margin-left: 490px;     
+}
+
+.pupil2 {
+	position: absolute;
+    width: 10px;
+	height:10px;
+	background: blue;
+	border-radius: 450px;
+    margin-top: 165px;
+    margin-left: 580px;     
+}
+
+.eyelight1 {
+	position: absolute;
+    width: 3px;
+	height: 3px;
+	background: white;
+	border-radius: 450px;
+    margin-top: 170px;
+    margin-left:490px;     
+}
+
+.nose {
+    position: absolute;
+    width: 20px;
+	height:20px;
+	background: pink;
+	border-radius: 450px;
+    margin-top: 180px;
+    margin-left:540px; 
+}
+
+
+.mouth1 {
+	position: absolute;
+    width: 50px;
+	height: 10px;
+	background: white;
+    margin-top: 220px;
+    margin-left: 520px    
+}
+
+.mouth2 {
+    position: absolute;
+    height:40px;
+    width:80px;
+    border-radius: 0 0 90px 90px;
+    background:black;
+    margin-top: 220px;
+    margin-left: 510px;
+}
+
+.ear1 {
+	position: absolute;
+    width: 30px;
+	height: 40px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 160px;
+    margin-left: 445px;     
+}
+
+.ear2 {
+	position: absolute;
+    width: 30px;
+	height: 40px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 160px;
+    margin-left: 618px;     
+}
+
+.neck {
+    position: absolute;
+    width: 30px;
+	height: 60px;
+	background: tan;
+	border-radius: 100px;
+    margin-top: 260px;
+    margin-left: 535px;   
+    
+}
+
+.shirt {
+    position: absolute;
+    width: 140px;
+	height: 230px;
+	background: steelblue;
+	border-radius: 20px;
+    margin-top: 300px;
+    margin-left: 480px;
+    
+}
+
+.hair {
+    position: absolute;
+    height:230px;
+    width:170px;
+    border-radius: 90px 90px;
+    background:brown;
+    margin-top: 50px;
+    margin-left: 460px;
+   transform:
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    font-size: 10pt;
+    font-family: "georgia";
+}
+
+

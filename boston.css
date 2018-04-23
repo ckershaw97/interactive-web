@@ -1,0 +1,59 @@
+.container {
+    background-color: lightblue;
+    padding-top: 2%;
+    padding-bottom: 2%
+}   
+
+.title {
+    width: 40%;
+    background-color: yellow;
+    color: red;
+    font-size: 20pt;
+    margin-left: 0%;
+       
+}
+
+.boston {
+    width: 40%;
+    background-color: yellow;
+    color: red;
+    font-size: 20pt;
+    margin-left: 0%; 
+    font-family: "franklin gothic medium";
+}
+
+.label {
+    position:;
+    float: right;
+    width: 30%;
+    font-size: 11pt;
+    text-align: right;  
+    background-color: yellow;
+    color: black;
+    border: solid white 10pt;
+    font-family: "franklin gothic medium";
+ 
+}
+
+.mapcontainer {
+    position: relative;
+    width: 100vw;
+}
+
+#ma {
+    position: absolute;
+    width: 90%;
+    padding-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.footer {
+    width: 100%;
+    font-size: 13pt;
+    font-family: "franklin gothic medium";
+    margin-left: 80%;
+    margin-top: 3%;
+}
+

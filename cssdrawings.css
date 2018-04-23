@@ -97,16 +97,219 @@ body{
     background-color: rgb(255, 248, 224);
 }
 
-.head {
-    position: absolute;
-    top: 16.5%;
-    left: 25%;
-    width: 50%;
-    height: 67%;
-    background: #A6BECF;
-    border-radius: 50%; 
-    
+.hair {
+	position: absolute;
+    width: 110px;
+	height: 50px;
+	background: brown;
+    margin-top: 110px;
+    margin-left: 365px;   
 }
+
+.ear1 {
+	position: absolute;
+    width: 20px;
+	height: 20px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 95px;
+    margin-left: 465px;     
+}
+
+.ear2 {
+	position: absolute;
+    width: 20px;
+	height: 20px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 95px;
+    margin-left: 355px;     
+}
+
+.head {
+	position: absolute;
+    width: 100px;
+	height: 100px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 370px;     
+}
+
+.bangs1 {
+	position: absolute;
+    width: 90px;
+	height: 25px;
+	background: brown;
+	border-radius: 50px;
+    margin-top: 55px;
+    margin-left: 355px; 
+    transform: rotate(330deg);
+}
+
+.bangs2 {
+	position: absolute;
+    width: 60px;
+	height: 20px;
+	background: brown;
+	border-radius: 50px;
+    margin-top: 65px;
+    margin-left: 425px; 
+    transform: rotate(45deg);
+}
+
+.eye1 {
+    position: absolute;
+    width: 10px;
+	height: 10px;
+	background: black;
+	border-radius: 50px;
+    margin-top: 95px;
+    margin-left: 390px;    
+}
+
+.eye2 {
+    position: absolute;
+    width: 10px;
+	height: 10px;
+	background: black;
+	border-radius: 50px;
+    margin-top: 95px;
+    margin-left: 430px;    
+}
+
+.nose {
+    position: absolute;
+    width: 10px;
+	height: 20px;
+	background: pink;
+	border-radius: 50px;
+    margin-top: 115px;
+    margin-left: 410px;    
+}
+
+.neck {
+	position: absolute;
+    width: 20px;
+	height: 50px;
+	background: tan;
+    margin-top: 140px;
+    margin-left: 410px;   
+}
+
+.shoulders {
+	position: absolute;
+    width: 90px;
+	height: 20px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 170px;
+    margin-left: 374px;     
+}
+
+.dress {
+	position: absolute;
+    width: 50px;
+	height: 100px;
+	background: red;
+    margin-top: 170px;
+    margin-left: 394px;   
+}
+
+.arm1 {
+	position: absolute;
+    width: 16px;
+	height: 100px;
+	background: tan;
+    margin-top: 180px;
+    margin-left: 375px;   
+}
+
+.arm2 {
+	position: absolute;
+    width: 16px;
+	height: 100px;
+	background: tan;
+    margin-top: 180px;
+    margin-left: 447px;   
+}
+
+.skirt {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+    margin-top: 220px;  
+    margin-left: 370px;
+
+}
+
+.hand1 {
+	position: absolute;
+    width: 20px;
+	height: 20px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 270px;
+    margin-left: 374px;     
+}
+
+.hand2 {
+	position: absolute;
+    width: 20px;
+	height: 20px;
+	background: tan;
+	border-radius: 50px;
+    margin-top: 270px;
+    margin-left: 445px;     
+}
+
+.foot1 {
+	position: absolute;
+    width: 30px;
+	height: 14px;
+	background: black;
+    margin-top: 490px;
+    margin-left: 420px;   
+}
+
+.foot2 {
+    position: absolute;
+    width: 30px;
+	height: 14px;
+	background: black;
+    margin-top: 490px;
+    margin-left: 380px;   
+}
+
+.leg1 {
+	position: absolute;
+    width: 19px;
+	height: 170px;
+	background: tan;
+    margin-top: 320px;
+    margin-left: 390px;   
+}
+
+.leg2 {
+	position: absolute;
+    width: 19px;
+	height: 170px;
+	background: tan;
+    margin-top: 320px;
+    margin-left: 430px;   
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    font-size: 10pt;
+    font-family: "georgia";
+    margin-left: 85%;
+}
+
 
 
 

@@ -1,0 +1,56 @@
+.container {
+    background-color: lightblue;
+    padding-top: 2%;
+    padding-bottom: 2%
+}   
+
+.title {
+    width: 40%;
+    background-color: yellow;
+    color: darkcyan;
+    font-size: 20pt;
+    margin-left: 0%;
+       
+}
+
+.oxford {
+    width: 40%;
+    background-color: yellow;
+    color: darkcyan;
+    font-size: 20pt;
+    margin-left: 0%;
+}
+
+.label {
+    position:;
+    float: right;
+    width: 40%;
+    font-size: 20pt;
+    text-align: right;  
+    background-color: yellow;
+    color: darkcyan;
+    border: solid white 10pt;
+ 
+}
+
+.mapcontainer {
+    position: relative;
+    width: 100vw;
+}
+
+#en {
+    position: absolute;
+    width: 90%;
+    padding-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.footer {
+    margin-top: 12%;
+    font-size: 15pt;
+    font-family: "impact";
+    line-height: 1.5;
+    margin-left: 75%;
+}
