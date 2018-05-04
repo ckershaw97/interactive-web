@@ -51,6 +51,7 @@ table {
   box-sizing: border-box;
 }
 
+/* =================Containers================ */
 
 .container {
     width: 100%;
@@ -62,6 +63,8 @@ table {
     position: relative;
     width: 100vw;
 }
+
+/*=================Other shit===================*/
 
 .assignment {
     float: center;
@@ -84,8 +87,6 @@ table {
     width: 100%;
     padding-top: 2%;
 }
-
-
 
 .navigation {
     position: relative;
@@ -124,11 +125,10 @@ table {
     border: solid white 8pt;
     background-color: yellow;
     padding: 0px 10px 0px 50px;
-    color: red;
-    
+    color: red; 
 }
 
-.footer{
+footer {
     position: relative;
     float: left;
     width: 100%;

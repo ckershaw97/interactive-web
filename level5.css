@@ -99,30 +99,18 @@
     font-size: 34pt;
     font-family: "Helvetica";
     font-weight: bold;
-    text-transform: ;
-    text-align: ;
     letter-spacing:1.0em;
-    display: ;
-    height:2000px ;
+    height:2000px;
     width: 8000px;
-    float: ;
     color: lightblue;
 }
 
 .p23 {
-    margin-top:100px;
-    margin-right: 0px;
-    padding:0px;
     font-size: 17pt;
     font-family: "Helvetica";
     font-weight: bold;
-    text-transform: ;
-    text-align:;
     letter-spacing: 5.0em;
-    display: ;
-    height: ;
     width:1500px;
-    float: ;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -151,26 +139,42 @@
     font-size: 13pt;
     font-family: "Helvetica";
     font-weight: bold;
-    text-transform: ;
-    text-align: ;
-    letter-spacing: ;
-    display: ;
-    height: ;
-    width: ;
-    float: ;
+    text-transform:uppercase;
+    text-align: right;
+    letter-spacing: 100pt;
+    display:block;
+  
 }
 
+.flash {
+   animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color: deepskyblue;}
+}
 .p25 {
     margin:10%
     padding:100px
     font-size: 13pt;
-    font-family: "Helvetica";
+    font-family: "";
     font-weight: bold;
-    text-transform: ;
-    text-align: ;
-    letter-spacing: ;
-    display: ;
-    height: ;
-    width: ;
-    float: ;
+    display:block;
+    line-height: 10;
+    border: dotted blue;
+    
 }
+
+.p25second {
+    display:block;
+    font-family: "CurlzMT";
+    margin-left: 40%;
+    line-height: 10;
+}
+ 
